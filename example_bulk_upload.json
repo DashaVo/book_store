@@ -1,0 +1,656 @@
+[
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "published_year": 1997,
+    "genres": [
+      "Fantasy",
+      "Fiction"
+    ],
+    "author_names": [
+      "J.K. Rowling"
+    ]
+  },
+  {
+    "title": "Harry Potter and the Chamber of Secrets",
+    "published_year": 1998,
+    "genres": [
+      "Fantasy",
+      "Fiction"
+    ],
+    "author_names": [
+      "J.K. Rowling"
+    ]
+  },
+  {
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "published_year": 1999,
+    "genres": [
+      "Fantasy",
+      "Fiction"
+    ],
+    "author_names": [
+      "J.K. Rowling"
+    ]
+  },
+  {
+    "title": "Harry Potter and the Goblet of Fire",
+    "published_year": 2000,
+    "genres": [
+      "Fantasy",
+      "Fiction"
+    ],
+    "author_names": [
+      "J.K. Rowling"
+    ]
+  },
+  {
+    "title": "Harry Potter and the Order of the Phoenix",
+    "published_year": 2003,
+    "genres": [
+      "Fantasy",
+      "Fiction"
+    ],
+    "author_names": [
+      "J.K. Rowling"
+    ]
+  },
+  {
+    "title": "Harry Potter and the Half-Blood Prince",
+    "published_year": 2005,
+    "genres": [
+      "Fantasy",
+      "Fiction"
+    ],
+    "author_names": [
+      "J.K. Rowling"
+    ]
+  },
+  {
+    "title": "Harry Potter and the Deathly Hallows",
+    "published_year": 2007,
+    "genres": [
+      "Fantasy",
+      "Fiction"
+    ],
+    "author_names": [
+      "J.K. Rowling"
+    ]
+  },
+  {
+    "title": "The Name of the Wind",
+    "published_year": 2007,
+    "genres": [
+      "Fantasy",
+      "Fiction"
+    ],
+    "author_names": [
+      "Patrick Rothfuss",
+      "J.K. Rowling"
+    ]
+  },
+  {
+    "title": "The Night Circus",
+    "published_year": 2011,
+    "genres": [
+      "Fantasy",
+      "Fiction"
+    ],
+    "author_names": [
+      "Erin Morgenstern",
+      "Neil Gaiman"
+    ]
+  },
+  {
+    "title": "The Da Vinci Code",
+    "published_year": 2003,
+    "genres": [
+      "Mystery",
+      "Thriller"
+    ],
+    "author_names": [
+      "Dan Brown",
+      "John Grisham"
+    ]
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "published_year": 1960,
+    "genres": [
+      "Fiction",
+      "Historical"
+    ],
+    "author_names": [
+      "Harper Lee"
+    ]
+  },
+  {
+    "title": "1984",
+    "published_year": 1949,
+    "genres": [
+      "Fiction",
+      "Dystopian",
+      "Science Fiction"
+    ],
+    "author_names": [
+      "George Orwell"
+    ]
+  },
+  {
+    "title": "Pride and Prejudice",
+    "published_year": 1813,
+    "genres": [
+      "Fiction",
+      "Romance"
+    ],
+    "author_names": [
+      "Jane Austen"
+    ]
+  },
+  {
+    "title": "The Great Gatsby",
+    "published_year": 1925,
+    "genres": [
+      "Fiction",
+      "Historical"
+    ],
+    "author_names": [
+      "F. Scott Fitzgerald"
+    ]
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "published_year": 1951,
+    "genres": [
+      "Fiction"
+    ],
+    "author_names": [
+      "J.D. Salinger"
+    ]
+  },
+  {
+    "title": "The Hobbit",
+    "published_year": 1937,
+    "genres": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "author_names": [
+      "J.R.R. Tolkien"
+    ]
+  },
+  {
+    "title": "Fahrenheit 451",
+    "published_year": 1953,
+    "genres": [
+      "Fiction",
+      "Dystopian",
+      "Science Fiction"
+    ],
+    "author_names": [
+      "Ray Bradbury"
+    ]
+  },
+  {
+    "title": "Jane Eyre",
+    "published_year": 1847,
+    "genres": [
+      "Fiction",
+      "Romance"
+    ],
+    "author_names": [
+      "Charlotte Brontë"
+    ]
+  },
+  {
+    "title": "Animal Farm",
+    "published_year": 1945,
+    "genres": [
+      "Fiction",
+      "Dystopian"
+    ],
+    "author_names": [
+      "George Orwell"
+    ]
+  },
+  {
+    "title": "The Lord of the Rings",
+    "published_year": 1954,
+    "genres": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "author_names": [
+      "J.R.R. Tolkien"
+    ]
+  },
+  {
+    "title": "Brave New World",
+    "published_year": 1932,
+    "genres": [
+      "Fiction",
+      "Dystopian",
+      "Science Fiction"
+    ],
+    "author_names": [
+      "Aldous Huxley"
+    ]
+  },
+  {
+    "title": "Wuthering Heights",
+    "published_year": 1847,
+    "genres": [
+      "Fiction",
+      "Romance"
+    ],
+    "author_names": [
+      "Emily Brontë"
+    ]
+  },
+  {
+    "title": "The Da Vinci Code",
+    "published_year": 2003,
+    "genres": [
+      "Mystery",
+      "Thriller"
+    ],
+    "author_names": [
+      "Dan Brown"
+    ]
+  },
+  {
+    "title": "The Alchemist",
+    "published_year": 1988,
+    "genres": [
+      "Fiction",
+      "Adventure"
+    ],
+    "author_names": [
+      "Paulo Coelho"
+    ]
+  },
+  {
+    "title": "The Shining",
+    "published_year": 1977,
+    "genres": [
+      "Horror",
+      "Fiction"
+    ],
+    "author_names": [
+      "Stephen King"
+    ]
+  },
+  {
+    "title": "Dune",
+    "published_year": 1965,
+    "genres": [
+      "Science Fiction",
+      "Adventure"
+    ],
+    "author_names": [
+      "Frank Herbert"
+    ]
+  },
+  {
+    "title": "The Road",
+    "published_year": 2006,
+    "genres": [
+      "Fiction",
+      "Dystopian"
+    ],
+    "author_names": [
+      "Cormac McCarthy"
+    ]
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "published_year": 2005,
+    "genres": [
+      "Mystery",
+      "Thriller"
+    ],
+    "author_names": [
+      "Stieg Larsson"
+    ]
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "published_year": 2011,
+    "genres": [
+      "Non-Fiction",
+      "History"
+    ],
+    "author_names": [
+      "Yuval Noah Harari"
+    ]
+  },
+  {
+    "title": "Educated",
+    "published_year": 2018,
+    "genres": [
+      "Memoir",
+      "Non-Fiction"
+    ],
+    "author_names": [
+      "Tara Westover"
+    ]
+  },
+  {
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "published_year": 1979,
+    "genres": [
+      "Science Fiction",
+      "Fiction"
+    ],
+    "author_names": [
+      "Douglas Adams"
+    ]
+  },
+  {
+    "title": "The Name of the Wind",
+    "published_year": 2007,
+    "genres": [
+      "Fantasy",
+      "Fiction"
+    ],
+    "author_names": [
+      "Patrick Rothfuss"
+    ]
+  },
+  {
+    "title": "Gone Girl",
+    "published_year": 2012,
+    "genres": [
+      "Mystery",
+      "Thriller"
+    ],
+    "author_names": [
+      "Gillian Flynn"
+    ]
+  },
+  {
+    "title": "The Fault in Our Stars",
+    "published_year": 2012,
+    "genres": [
+      "Fiction",
+      "Romance"
+    ],
+    "author_names": [
+      "John Green"
+    ]
+  },
+  {
+    "title": "A Game of Thrones",
+    "published_year": 1996,
+    "genres": [
+      "Fantasy",
+      "Fiction"
+    ],
+    "author_names": [
+      "George R.R. Martin"
+    ]
+  },
+  {
+    "title": "The Handmaid's Tale",
+    "published_year": 1985,
+    "genres": [
+      "Fiction",
+      "Dystopian"
+    ],
+    "author_names": [
+      "Margaret Atwood"
+    ]
+  },
+  {
+    "title": "The Martian",
+    "published_year": 2011,
+    "genres": [
+      "Science Fiction",
+      "Fiction"
+    ],
+    "author_names": [
+      "Andy Weir"
+    ]
+  },
+  {
+    "title": "Becoming",
+    "published_year": 2018,
+    "genres": [
+      "Memoir",
+      "Non-Fiction"
+    ],
+    "author_names": [
+      "Michelle Obama"
+    ]
+  },
+  {
+    "title": "The Silent Patient",
+    "published_year": 2019,
+    "genres": [
+      "Mystery",
+      "Thriller"
+    ],
+    "author_names": [
+      "Alex Michaelides"
+    ]
+  },
+  {
+    "title": "The Brief Wondrous Life of Oscar Wao",
+    "published_year": 2007,
+    "genres": [
+      "Fiction",
+      "Historical"
+    ],
+    "author_names": [
+      "Junot Díaz"
+    ]
+  },
+  {
+    "title": "The Night Circus",
+    "published_year": 2011,
+    "genres": [
+      "Fantasy",
+      "Fiction"
+    ],
+    "author_names": [
+      "Erin Morgenstern"
+    ]
+  },
+  {
+    "title": "The Color Purple",
+    "published_year": 1982,
+    "genres": [
+      "Fiction",
+      "Historical"
+    ],
+    "author_names": [
+      "Alice Walker"
+    ]
+  },
+  {
+    "title": "The Kite Runner",
+    "published_year": 2003,
+    "genres": [
+      "Fiction",
+      "Historical"
+    ],
+    "author_names": [
+      "Khaled Hosseini"
+    ]
+  },
+  {
+    "title": "Life of Pi",
+    "published_year": 2001,
+    "genres": [
+      "Fiction",
+      "Adventure"
+    ],
+    "author_names": [
+      "Yann Martel"
+    ]
+  },
+  {
+    "title": "The Book Thief",
+    "published_year": 2005,
+    "genres": [
+      "Fiction",
+      "Historical"
+    ],
+    "author_names": [
+      "Markus Zusak"
+    ]
+  },
+  {
+    "title": "Moby-Dick",
+    "published_year": 1851,
+    "genres": [
+      "Fiction",
+      "Adventure"
+    ],
+    "author_names": [
+      "Herman Melville"
+    ]
+  },
+  {
+    "title": "The Odyssey",
+    "published_year": 1800,
+    "genres": [
+      "Fiction",
+      "Adventure"
+    ],
+    "author_names": [
+      "Homer"
+    ]
+  },
+  {
+    "title": "Frankenstein",
+    "published_year": 1818,
+    "genres": [
+      "Fiction",
+      "Horror",
+      "Science Fiction"
+    ],
+    "author_names": [
+      "Mary Shelley"
+    ]
+  },
+  {
+    "title": "The Grapes of Wrath",
+    "published_year": 1939,
+    "genres": [
+      "Fiction",
+      "Historical"
+    ],
+    "author_names": [
+      "John Steinbeck"
+    ]
+  },
+  {
+    "title": "Catch-22",
+    "published_year": 1961,
+    "genres": [
+      "Fiction",
+      "Historical"
+    ],
+    "author_names": [
+      "Joseph Heller"
+    ]
+  },
+  {
+    "title": "The Bell Jar",
+    "published_year": 1963,
+    "genres": [
+      "Fiction",
+      "Memoir"
+    ],
+    "author_names": [
+      "Sylvia Plath"
+    ]
+  },
+  {
+    "title": "Slaughterhouse-Five",
+    "published_year": 1969,
+    "genres": [
+      "Fiction",
+      "Science Fiction"
+    ],
+    "author_names": [
+      "Kurt Vonnegut"
+    ]
+  },
+  {
+    "title": "The Stranger",
+    "published_year": 1942,
+    "genres": [
+      "Fiction"
+    ],
+    "author_names": [
+      "Albert Camus"
+    ]
+  },
+  {
+    "title": "The Picture of Dorian Gray",
+    "published_year": 1890,
+    "genres": [
+      "Fiction",
+      "Horror"
+    ],
+    "author_names": [
+      "Oscar Wilde"
+    ]
+  },
+  {
+    "title": "Beloved",
+    "published_year": 1987,
+    "genres": [
+      "Fiction",
+      "Historical"
+    ],
+    "author_names": [
+      "Toni Morrison"
+    ]
+  },
+  {
+    "title": "The Giver",
+    "published_year": 1993,
+    "genres": [
+      "Fiction",
+      "Dystopian"
+    ],
+    "author_names": [
+      "Lois Lowry"
+    ]
+  },
+  {
+    "title": "The Hunger Games",
+    "published_year": 2008,
+    "genres": [
+      "Fiction",
+      "Dystopian"
+    ],
+    "author_names": [
+      "Suzanne Collins"
+    ]
+  },
+  {
+    "title": "The Lion, the Witch and the Wardrobe",
+    "published_year": 1950,
+    "genres": [
+      "Fantasy",
+      "Fiction"
+    ],
+    "author_names": [
+      "C.S. Lewis"
+    ]
+  },
+  {
+    "title": "Thinking, Fast and Slow",
+    "published_year": 2011,
+    "genres": [
+      "Non-Fiction",
+      "Self-Help"
+    ],
+    "author_names": [
+      "Daniel Kahneman"
+    ]
+  }
+]
