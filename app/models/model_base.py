@@ -1,6 +1,7 @@
 from sqlalchemy.ext.asyncio import AsyncAttrs
 from sqlalchemy.orm import DeclarativeBase
-from sqlalchemy import Column, String, Integer, ARRAY, UUID, Table, ForeignKey
+from sqlalchemy import Column, String, Integer, UUID, Table, ForeignKey
+from sqlalchemy.dialects.postgresql import ARRAY
 from sqlalchemy.orm import relationship
 import uuid
 
@@ -18,7 +19,7 @@ class Book(ModelBase):
     id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
     title = Column(String, nullable=False)
     published_year = Column(Integer)
-    genres = Column(ARRAY(String))
+    genres = Column(ARRAY(String), nullable=False)  # Use PostgreSQL ARRAY
     authors = relationship("Author", secondary="book_authors", back_populates="books")
 
 book_authors = Table(
