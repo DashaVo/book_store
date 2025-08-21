@@ -1,30 +1,32 @@
+# 📚 Book Management System
 
-# Book Management System
+A modern **FastAPI-based** book management system powered by **PostgreSQL**, **SQLAlchemy**, and **JWT authentication**. This project provides a RESTful API for managing books with robust features like bulk uploads, fuzzy search, and secure endpoints.
 
-A FastAPI-based book management system with PostgreSQL, SQLAlchemy, and JWT authentication.
+## ✨ Features
 
-## Features
-- RESTful API for CRUD operations on books.
-- Bulk upload of books via JSON.
-- Fuzzy search by title or author name.
-- JWT-based authentication for secure endpoints.
-- Pydantic validation for non-empty strings, valid genres, and year range (1800–current).
-- Async database operations with SQLAlchemy and asyncpg.
+- **RESTful API**: Perform CRUD operations on books (create, read, update, delete).
+- **Bulk Upload**: Import multiple books via JSON.
+- **Fuzzy Search**: Search books by title or author name (case-insensitive).
+- **Secure Authentication**: JWT-based authentication for protected endpoints.
+- **Data Validation**: Pydantic enforces non-empty strings, valid genres, and year range (1800–present).
+- **Async Database**: Efficient async operations with SQLAlchemy and asyncpg.
+- **Docker Support**: Run the application and database in containers with Docker Compose.
 
-## Prerequisites
-- Python 3.10+
-- PostgreSQL 13+ (or Docker for containerized setup)
-- Docker and Docker Compose (for containerized setup)
+## 🛠 Prerequisites
 
-## Setup (Local)
+- **Python**: 3.10 or higher
+- **PostgreSQL**: 13 or higher (or use Docker)
+- **Docker and Docker Compose**: For containerized setup
+- **Git**: For cloning the repository
 
-1. **Clone Repository**:
+## 🚀 Setup (Local)
+
+1. **Clone the Repository**:
    ```bash
    git clone <repository-url>
-   cd book_store
+   cd book_store 
 ```
-
-2. **Create Virtual Environment**:
+2. **Create a Virtual Environment**:
     
     ```bash
     python -m venv .venv
@@ -40,13 +42,13 @@ A FastAPI-based book management system with PostgreSQL, SQLAlchemy, and JWT auth
     
 4. **Set Up PostgreSQL**:
     
-    - Install PostgreSQL or use Docker:
+    - Install PostgreSQL locally or use Docker:
         
         ```bash
         docker run --name book_db -e POSTGRES_PASSWORD=password -d -p 5432:5432 postgres
         ```
         
-    - Create database:
+    - Create the database:
         
         ```bash
         createdb -h localhost -U postgres book_db
@@ -74,36 +76,40 @@ A FastAPI-based book management system with PostgreSQL, SQLAlchemy, and JWT auth
         python -c "import secrets; print(secrets.token_urlsafe(64))"
         ```
         
-6. **Run Migrations**:
+6. **Run Database Migrations**:
     
     ```bash
-    set PYTHONPATH=C:\Users\Admin\PycharmProjects\book_store;%PYTHONPATH%  # Windows
-    # export PYTHONPATH=$(pwd):$PYTHONPATH  # Linux/Mac
-    alembic revision --autogenerate -m "create tables"
     alembic upgrade head
     ```
     
-7. **Run Application**:
+7. **Start the Application**:
     
     ```bash
     uvicorn app.main:app --reload
     ```
     
 
-## Setup (Docker)
+## 🐳 Setup (Docker)
 
-1. **Build and Run with Docker Compose**:
+1. **Clone the Repository**:
+    
+    ```bash
+    git clone <repository-url>
+    cd book_store
+    ```
+    
+2. **Build and Run with Docker Compose**:
     
     ```bash
     docker-compose up --build
     ```
     
-2. **Run Migrations**:
+3. **Run Migrations**:
     
     - Access the app container:
         
         ```bash
-        docker-compose -p book_store exec -it app bash
+	    docker-compose -p book_store exec -it app bash
         ```
         
     - Run migrations inside the container:
@@ -112,29 +118,41 @@ A FastAPI-based book management system with PostgreSQL, SQLAlchemy, and JWT auth
         alembic upgrade head
         ```
         
-## Access API:
-    
-    - Swagger UI: `http://127.0.0.1:8000/docs`
-    - API root: `http://127.0.0.1:8000/`
-or 
-    - Swagger UI: `http://localhost:8000/docs`
-    - API root: `http://localhost:8000/`
-    
-## API Endpoints
 
-- **POST /auth/register**: Register a user (`username`, `password`).
-- **POST /auth/login**: Obtain JWT token (`username`, `password`).
-- **POST /api/v1/books/**: Create a book (authenticated; requires `title`, `published_year`, `genres`, `author_names`).
-- **GET /api/v1/books/**: List books (supports `skip`, `limit`, `sort_by`, `title`, `author`, `genre`, `year_from`, `year_to`).
-- **GET /api/v1/books/{book_id}**: Get book by UUID.
-- **PUT /api/v1/books/{book_id}**: Update book (authenticated).
-- **DELETE /api/v1/books/{book_id}**: Delete book and authors with no remaining books (authenticated).
-- **POST /api/v1/books/bulk-upload**: Bulk upload books (authenticated; JSON list).
-- **GET /api/v1/books/search/**: Fuzzy search by title or author (`query` parameter).
+## 🌐 Access the API
 
-## Database Schema
+- **Swagger UI**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) or [http://localhost:8000/docs](http://localhost:8000/docs)
+- **API Root**: [http://127.0.0.1:8000/](http://127.0.0.1:8000/) or [http://localhost:8000/](http://localhost:8000/)
 
-- **users**: `id` (UUID, PK), `username` (string, unique), `hashed_password` (string).
-- **books**: `id` (UUID, PK), `title` (string), `published_year` (integer), `genres` (string array).
-- **authors**: `id` (UUID, PK), `name` (string, unique).
-- **book_authors**: `book_id` (UUID, FK), `author_id` (UUID, FK).
+## 🔗 API Endpoints
+
+|Method|Endpoint|Description|Authentication|
+|---|---|---|---|
+|POST|`/auth/register`|Register a user (`username`, `password`)|None|
+|POST|`/auth/login`|Obtain JWT token (`username`, `password`)|None|
+|POST|`/api/v1/books/`|Create a book (`title`, `published_year`, `genres`, `author_names`)|JWT|
+|GET|`/api/v1/books/`|List books (supports `skip`, `limit`, `sort_by`, `title`, `author`, `genre`, `year_from`, `year_to`)|None|
+|GET|`/api/v1/books/{book_id}`|Get book by UUID|None|
+|PUT|`/api/v1/books/{book_id}`|Update book|JWT|
+|DELETE|`/api/v1/books/{book_id}`|Delete book (and authors with no books)|JWT|
+|POST|`/api/v1/books/bulk-upload`|Bulk upload books (JSON list)|JWT|
+|GET|`/api/v1/books/search/`|Fuzzy search by title or author (`query`)|None|
+
+## 🗄 Database Schema
+
+- **users**:
+    - `id`: UUID, primary key
+    - `username`: String, unique
+    - `hashed_password`: String (Bcrypt)
+- **books**:
+    - `id`: UUID, primary key
+    - `title`: String
+    - `published_year`: Integer
+    - `genres`: String array
+- **authors**:
+    - `id`: UUID, primary key
+    - `name`: String, unique
+- **book_authors**:
+    - `book_id`: UUID, foreign key (books.id)
+    - `author_id`: UUID, foreign key (authors.id)
+
