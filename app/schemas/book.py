@@ -10,7 +10,11 @@ class BookBase(BaseModel):
 
     @validator("genres")
     def validate_genres(cls, v):
-        valid_genres = ["Fiction", "Non-Fiction", "Science", "Fantasy", "Biography"]
+        valid_genres = [
+            "Fiction", "Non-Fiction", "Science", "Fantasy", "Biography",
+            "Mystery", "Thriller", "Romance", "Historical", "Adventure",
+            "Horror", "Science Fiction", "Dystopian", "Memoir", "Self-Help"
+        ]
         if not all(genre in valid_genres for genre in v):
             raise ValueError("Invalid genre")
         return v
