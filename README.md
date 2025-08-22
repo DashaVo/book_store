@@ -25,7 +25,7 @@ A modern **FastAPI-based** book management system powered by **PostgreSQL**, **S
    ```bash
    git clone <repository-url>
    cd book_store 
-```
+	```
 2. **Create a Virtual Environment**:
     
     ```bash
